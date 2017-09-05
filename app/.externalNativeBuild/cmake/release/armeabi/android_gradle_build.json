@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "E:/AndroidStudioProjects/CrashMonitor/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\leechyli\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\AndroidStudioProjects\\CrashMonitor\\app\\.externalNativeBuild\\cmake\\release\\armeabi --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"crashMonitor-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "crashMonitor",
+			"buildCommand" : "C:\\Users\\leechyli\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\AndroidStudioProjects\\CrashMonitor\\app\\.externalNativeBuild\\cmake\\release\\armeabi --target crashMonitor",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=C:/Users/leechyli/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/leechyli/AppData/Local/Android/sdk/ndk-bundle/sysroot  -DcrashMonitor_EXPORTS -isystem C:\\Users\\leechyli\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\Users\\leechyli\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi\\include -isystem C:\\Users\\leechyli\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/Users/leechyli/AppData/Local/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/AndroidStudioProjects/CrashMonitor/app/src/main/cpp/crashMonitor.cpp",
+					"workingDirectory" : "E:/AndroidStudioProjects/CrashMonitor/app/.externalNativeBuild/cmake/release/armeabi"
+				}
+			],
+			"output" : "E:/AndroidStudioProjects/CrashMonitor/app/build/intermediates/cmake/release/obj/armeabi/libcrashMonitor.so",
+			"toolchain" : "1307527299"
+		}
+	},
+	"toolchains" : 
+	{
+		"1307527299" : 
+		{
+			"cCompilerExecutable" : "C:/Users/leechyli/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/leechyli/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

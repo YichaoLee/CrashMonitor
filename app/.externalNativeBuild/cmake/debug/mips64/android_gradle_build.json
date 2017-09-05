@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "E:/AndroidStudioProjects/CrashMonitor/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\leechyli\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\AndroidStudioProjects\\CrashMonitor\\app\\.externalNativeBuild\\cmake\\debug\\mips64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"crashMonitor-Debug-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "crashMonitor",
+			"buildCommand" : "C:\\Users\\leechyli\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\AndroidStudioProjects\\CrashMonitor\\app\\.externalNativeBuild\\cmake\\debug\\mips64 --target crashMonitor",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=C:/Users/leechyli/AppData/Local/Android/sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/leechyli/AppData/Local/Android/sdk/ndk-bundle/sysroot  -DcrashMonitor_EXPORTS -isystem C:\\Users\\leechyli\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\Users\\leechyli\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem C:\\Users\\leechyli\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/Users/leechyli/AppData/Local/Android/sdk/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "E:/AndroidStudioProjects/CrashMonitor/app/src/main/cpp/crashMonitor.cpp",
+					"workingDirectory" : "E:/AndroidStudioProjects/CrashMonitor/app/.externalNativeBuild/cmake/debug/mips64"
+				}
+			],
+			"output" : "E:/AndroidStudioProjects/CrashMonitor/app/build/intermediates/cmake/debug/obj/mips64/libcrashMonitor.so",
+			"toolchain" : "1307527299"
+		}
+	},
+	"toolchains" : 
+	{
+		"1307527299" : 
+		{
+			"cCompilerExecutable" : "C:/Users/leechyli/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/leechyli/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}
